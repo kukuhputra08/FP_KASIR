@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFF5E4;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+}
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.login .judul{
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #1E1E1E;
+}
+
+.Login-container{
+    width: 816px;
+    height: 626px;
+    background-color: #1E1E1E;
+    box-shadow: 0 0 25px 20px rgba(205, 92, 8, 0.9);
+    color: #FFF5E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 20px;
+}
+.Login-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.form-login{
+    width: 621px;
+    height: 124px;
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #fff; */
+}
+.form-login h1{
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #FFF5E4;
+}
+.form-login input{
+    height: 64px;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color:rgb(151, 151, 151);
+    color: #FFF5E4;
+    border: 3px solid rgb(205, 92, 8);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+.button-login{
+    width: 621px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-login .register-Log{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding: 10px; */
+    gap: 20px;
+}
+.button-login >button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 292px;
+    height: 59px;
+    text-decoration: none;
+    color: #FFF5E4;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    border-radius: 20px;
+    background-color: #CD5C08;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+    transform: scale(1);
+}
+
+.button-login >button:hover{
+    transform: scale(0.8);
+    background-color: #7b3805;
+}
+.button-login .register-Log>a{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF5E4;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #CD5C08;
+    transition: 0.3s ease-in;
+}
+
+.button-login .register-Log>a:hover{
+    color: #7b3805;
+}
